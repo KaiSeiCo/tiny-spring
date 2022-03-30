@@ -1,0 +1,18 @@
+package cn.neko;
+
+/**
+ * bean
+ * @Author: Elaina
+ * @Date: 2022/3/13 16:16
+ */
+public class BeanDefinition {
+    private Object bean;
+
+    public BeanDefinition(Object bean) {
+        this.bean = bean;
+    }
+
+    public Object getBean() {
+        return bean;
+    }
+}
