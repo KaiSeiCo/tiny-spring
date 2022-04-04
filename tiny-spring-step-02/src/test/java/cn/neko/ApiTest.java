@@ -24,5 +24,7 @@ public class ApiTest {
         // 4. 第二次获取 bean
         UserService userService1 = (UserService) beanFactory. getBean("userService");
         userService1.query();
+
+        System.out.println(userService1 == userService);
     }
 }

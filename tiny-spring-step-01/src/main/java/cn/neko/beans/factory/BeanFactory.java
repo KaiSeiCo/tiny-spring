@@ -4,6 +4,7 @@ import cn.neko.BeanDefinition;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * bean 工厂
@@ -12,7 +13,7 @@ import java.util.Map;
  */
 public class BeanFactory {
 
-    private Map<String, BeanDefinition> beanDefinitionMap = new HashMap<>();
+    private Map<String, BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<>();
 
     public Object getBean(String name) {
         return beanDefinitionMap.get(name).getBean();

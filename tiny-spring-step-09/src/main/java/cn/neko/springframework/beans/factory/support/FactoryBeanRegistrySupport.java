@@ -13,7 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public abstract class FactoryBeanRegistrySupport extends DefaultSingletonBeanRegistry {
 
     /**
-     * 单例对象的缓存
+     * FactoryBean单例对象的缓存
      */
     private final Map<String, Object> factoryBeanObjectCache = new ConcurrentHashMap<>();
 

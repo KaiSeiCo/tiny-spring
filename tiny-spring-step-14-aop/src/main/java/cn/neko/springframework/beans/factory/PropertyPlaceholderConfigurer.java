@@ -37,8 +37,11 @@ public class PropertyPlaceholderConfigurer implements BeanFactoryPostProcessor {
         try {
             DefaultResourceLoader resourceLoader = new DefaultResourceLoader();
             Resource resource = resourceLoader.getResource(location);
+
+            // 占位符替换属性值、设置属性值
             Properties properties = new Properties();
             properties.load(resource.getInputStream());
+
 
             String[] beanDefinitionNames = beanFactory.getBeanDefinitionNames();
             for (String beanName : beanDefinitionNames) {

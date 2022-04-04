@@ -11,6 +11,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ *
+ * target : 通过注解配置和自动扫描包完成Bean对象的注册
+ *
  */
 public class ApiTest {
 
