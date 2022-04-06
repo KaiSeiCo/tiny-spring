@@ -23,6 +23,8 @@
         <module>tiny-spring-step-12-aop</module>
         <module>tiny-spring-step-13-aop</module>
         <module>tiny-spring-step-14-aop</module>
+        <module>tiny-spring-step-15-aop</module>
+        <module>tiny-spring-step-16-design</module>
     </modules>
 
     <dependencies>
