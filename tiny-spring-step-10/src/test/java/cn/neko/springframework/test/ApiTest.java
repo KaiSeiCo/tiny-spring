@@ -1,6 +1,6 @@
 package cn.neko.springframework.test;
 
-import cn.neko.springframework.context.supoort.ClassPathXmlApplicationContext;
+import cn.neko.springframework.context.support.ClassPathXmlApplicationContext;
 import cn.neko.springframework.test.event.CustomEvent;
 import org.junit.Test;
 

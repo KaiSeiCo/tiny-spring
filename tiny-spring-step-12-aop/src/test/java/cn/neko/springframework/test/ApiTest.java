@@ -13,7 +13,7 @@ import cn.neko.springframework.aop.aspectj.AspectJExpressionPointcutAdvisor;
 import cn.neko.springframework.aop.framework.ProxyFactory;
 import cn.neko.springframework.aop.framework.ReflectiveMethodInvocation;
 import cn.neko.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor;
-import cn.neko.springframework.context.supoort.ClassPathXmlApplicationContext;
+import cn.neko.springframework.context.support.ClassPathXmlApplicationContext;
 import org.aopalliance.intercept.MethodInterceptor;
 import org.junit.Before;
 import org.junit.Test;

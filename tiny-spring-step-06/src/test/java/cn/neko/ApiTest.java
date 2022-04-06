@@ -3,7 +3,7 @@ package cn.neko;
 
 import cn.hutool.core.io.IoUtil;
 import cn.neko.springframework.beans.BeansException;
-import cn.neko.springframework.context.supoort.ClassPathXmlApplicationContext;
+import cn.neko.springframework.context.support.ClassPathXmlApplicationContext;
 import cn.neko.springframework.core.io.DefaultResourceLoader;
 import cn.neko.springframework.core.io.Resource;
 import org.junit.Before;

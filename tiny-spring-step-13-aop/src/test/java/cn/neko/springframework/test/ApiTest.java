@@ -3,7 +3,7 @@ package cn.neko.springframework.test;
 
 import cn.neko.springframework.beans.BeansException;
 import cn.neko.springframework.beans.factory.config.BeanPostProcessor;
-import cn.neko.springframework.context.supoort.ClassPathXmlApplicationContext;
+import cn.neko.springframework.context.support.ClassPathXmlApplicationContext;
 import cn.neko.springframework.test.bean.IUserService;
 import org.junit.Test;
 

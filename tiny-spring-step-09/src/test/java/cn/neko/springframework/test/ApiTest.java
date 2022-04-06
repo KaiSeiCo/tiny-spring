@@ -1,9 +1,8 @@
 package cn.neko.springframework.test;
 
-import cn.neko.springframework.context.supoort.ClassPathXmlApplicationContext;
+import cn.neko.springframework.context.support.ClassPathXmlApplicationContext;
 import cn.neko.springframework.test.bean.UserService;
 import org.junit.Test;
-import org.openjdk.jol.info.ClassLayout;
 
 /**
  * @Author: Elaina
